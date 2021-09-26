@@ -145,9 +145,9 @@ function changeImperial() {
   temperatureText.innerHTML = "64";
 }
 
-let celcius = document.querySelector("#mainTemp-Celcius");
+let celcius2 = document.querySelector("#mainTemp-Celcius");
 let farenheit = document.querySelector("#mainTemp-Farenheit");
-celcius.addEventListener("click", changeMetric);
+celcius2.addEventListener("click", changeMetric);
 farenheit.addEventListener("click", changeImperial);
 
 //Search engine task
