@@ -146,9 +146,9 @@ function changeImperial() {
 }
 
 let celcius2 = document.querySelector("#mainTemp-Celcius");
-let farenheit = document.querySelector("#mainTemp-Farenheit");
+let farenheit2 = document.querySelector("#mainTemp-Farenheit");
 celcius2.addEventListener("click", changeMetric);
-farenheit.addEventListener("click", changeImperial);
+farenheit2.addEventListener("click", changeImperial);
 
 //Search engine task
 let apiKey = "069d0b3024a243d003c1b6e46fbeed8c";
