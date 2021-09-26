@@ -108,7 +108,7 @@ function showDay(day) {
   dayText.innerHTML = currentDayText;
 }
 
-let currentDate = new Date();
+// let currentDate = new Date();
 showTime();
 showDay();
 
