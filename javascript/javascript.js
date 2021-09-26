@@ -151,7 +151,7 @@ celcius2.addEventListener("click", changeMetric);
 farenheit2.addEventListener("click", changeImperial);
 
 //Search engine task
-let apiKey = "069d0b3024a243d003c1b6e46fbeed8c";
+//let apiKey = "069d0b3024a243d003c1b6e46fbeed8c";
 
 function showWeather(weather) {
   console.log(weather.data);
