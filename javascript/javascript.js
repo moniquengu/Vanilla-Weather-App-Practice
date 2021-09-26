@@ -131,8 +131,8 @@ function citySearch() {
   axios.get(apiCity).then(showNewWeather);
 }
 
-let cityInput = document.querySelector("#city-search-bar");
-cityInput.addEventListener("submit", citySearch);
+let cityInput2 = document.querySelector("#city-search-bar");
+cityInput2.addEventListener("submit", citySearch);
 
 //Feature 3
 function changeMetric() {
